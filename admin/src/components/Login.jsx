@@ -1,8 +1,9 @@
-import React, { useState } from "react";
-import axios from 'axios';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import { backendurl } from "../App";
-import { toast } from "react-toastify";
-import { useNavigate } from 'react-router-dom';
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
 
 const Login = ({ settoken }) => {
   const [email, setemail] = useState("");
@@ -11,24 +12,29 @@ const Login = ({ settoken }) => {
 
   const onsubmithandler = async (e) => {
     e.preventDefault();
-
     try {
-      const response = await axios.post(backendurl + '/api/user/admin', {
+      const response = await axios.post(backendurl + "/api/user/admin", {
         email,
-        password
+        password,
       });
-
-      if (response.data.sucess) {
+      if (response.data.success) {
         settoken(response.data.token);
-        navigate('/dashboard');
+        toast.success("Admin logged in successfully");
       } else {
-        toast.error(response.data.message);
+        toast.error(response.data.message || "Login failed");
       }
     } catch (error) {
-      console.log(error);
-      toast.error("Login failed. Please check your credentials.");
+      toast.error(error.response?.data?.message || "Login failed. Please check your credentials.");
     }
   };
+
+  useEffect(() => {
+    if (settoken && localStorage.getItem("token")) {
+      setTimeout(() => {
+        navigate("/dashboard");
+      }, 2000);
+    }
+  }, [settoken, navigate]);
 
   return (
     <div className="min-h-screen bg-[#F5F1EE] flex items-center justify-center px-4 py-10">
@@ -71,6 +77,7 @@ const Login = ({ settoken }) => {
           </button>
         </form>
       </div>
+      <ToastContainer />
     </div>
   );
 };

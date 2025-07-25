@@ -1,3 +1,5 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-unused-vars */
 import { createContext, useEffect, useState } from "react";
 import axios from 'axios'
 import { toast } from "react-toastify";
