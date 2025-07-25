@@ -96,5 +96,14 @@ Contributions are welcome! Feel free to:
 Open an issue to report bugs or suggest features
 Submit a pull request to enhance the project
 
+## 📸 Screenshots
 
 
+<img width="1920" height="5915" alt="Landing Page" src="https://github.com/user-attachments/assets/f80430de-05a4-435e-86fa-f31b9901d203" />
+<img width="1920" height="3045" alt="collection Page" src="https://github.com/user-attachments/assets/2ee751b5-5a34-4bbe-8499-765d37c30d3d" />
+<img width="1920" height="2082" alt="Add to cart Page" src="https://github.com/user-attachments/assets/57b5e2aa-fc22-4136-bfc2-90d695bee759" />
+<img width="1920" height="1752" alt="order Page" src="https://github.com/user-attachments/assets/22c5d580-4e22-4a66-9a8d-04de1bbd68ff" />
+<img width="1920" height="988" alt="Stripe Payment" src="https://github.com/user-attachments/assets/854f8a2b-b57f-4523-b579-192504388c15" />
+<img width="1920" height="1132" alt="admin dashboard" src="https://github.com/user-attachments/assets/5e6131e2-12da-478f-8d63-6a11c78891bc" />
+<img width="1920" height="2497" alt="admin item list" src="https://github.com/user-attachments/assets/98373af2-2148-49b5-9a42-00c9e9adca2f" />
+<img width="1920" height="1207" alt="admin order management" src="https://github.com/user-attachments/assets/c0d545b0-26f2-4439-b75a-4982a1ebdb14" />
