@@ -1,90 +1,100 @@
-🛒 MERN eCommerce Website
-This project is a full-stack eCommerce website built with the MERN stack (MongoDB, Express.js, React.js, Node.js). It allows users to browse, filter, and sort products, add product variants to the cart, and place orders using multiple payment methods including Stripe and Razorpay. The project also includes an admin dashboard for managing products and orders.
+🛒 MERN eCommerce Platform
+A full-stack eCommerce website built with the MERN stack (MongoDB, Express.js, React.js, Node.js). This project enables users to browse products, filter and sort items, manage a shopping cart, and complete orders using multiple payment methods, including Stripe and Razorpay. It also features a secure admin dashboard for managing products, inventory, and orders.
 
-The project is designed to be deployed online (for example, on Vercel).
 
-🚀 Features
-User Side
-Browse a variety of products with rich filtering and sorting options.
 
-Select product variants (e.g., size) before adding to the cart.
+✨ Features
+👤 User Features
 
-Add and remove products from the shopping cart.
+Browse products with advanced filtering and sorting options
+Select product variants (e.g., size, color)
+Add/remove items from the shopping cart
+Place orders with delivery address
+Secure payments via Cash on Delivery, Stripe, or Razorpay
+Fully responsive UI built with React
 
-Place orders by providing delivery address.
+🛠 Admin Features
 
-Choose payment method: Cash on Delivery or Online Payment.
+Secure admin login with protected routes
+Add, edit, or delete products
+Upload product images (via Cloudinary or local storage)
+Manage stock and inventory
+View and process customer orders
 
-Online payment integration with Stripe and Razorpay.
 
-Responsive and user-friendly UI built with React.js.
+🛠 Tech Stack
 
-Admin Side
-Secure admin dashboard.
 
-Add new products with images, descriptions, and variants.
 
-Edit or delete existing products.
+Layer
+Technologies
 
-View all orders placed by customers.
 
-Manage product inventory efficiently.
+
+Frontend
+React.js, Tailwind CSS
+
 
 Backend
-RESTful APIs built using Node.js and Express.js.
+Node.js, Express.js
 
-Data stored securely in MongoDB.
 
-Authentication and authorization for users and admins.
+Database
+MongoDB (Atlas)
 
-Payment gateway integrations with Stripe and Razorpay.
 
-Order management system.
+Payments
+Stripe
 
-🛠️ Tech Stack
-Frontend: React.js, Redux (optional), Tailwind CSS (optional)
 
-Backend: Node.js, Express.js
 
-Database: MongoDB (Atlas or local)
+📚 Learning Outcomes
+By exploring this project, you'll gain experience in:
 
-Payment Gateways: Stripe, Razorpay
+Building a full MERN stack application
+Developing RESTful APIs
+Managing state and components in React
+Integrating payment gateways (Stripe, Razorpay)
+Implementing admin-authenticated routes
+Handling product variants and order processing
+Deploying frontend and backend applications
 
-Deployment: Vercel (frontend), Heroku / DigitalOcean / any Node.js server (backend)
 
-📚 What You Will Learn
-Building a full MERN stack application from scratch.
+⚙️ Setup for Local Development
 
-Managing complex state and UI in React.
+Clone the Repository
+git clone https://github.com/officialmuhammadusman/ecommerce-mernstack.git
+cd ecommerce-mernstack
 
-Building secure REST APIs with Express and Node.
 
-Integrating payment gateways (Stripe & Razorpay).
-
-Handling product variants and cart functionality.
-
-Deploying a full-stack application online.
-👨‍💻 Developer Info
-Muhammad Usman
-📧 official.muhammadusman01@gmail.com
-🌐 https://www.linkedin.com/in/muhammad-usman-563a80376/
-
-⚙️ How to Run Locally
-bash
-Copy
-Edit
-# Clone the repository
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-
-# Setup backend
-cd server
+Set Up Backend
+cd backend
 npm install
-npm run dev  # Starts backend server with nodemon or node
+npm run dev
 
-# Setup frontend
-cd ../client
+
+Set Up Frontend
+cd ../frontend
 npm install
-npm start   # Starts React development server
-🤝 Contributions
-Contributions are welcome! Feel free to open issues or submit pull requests to improve this project.
+npm run dev
+
+
+Set Up Admin Dashboard (Optional)
+cd ../admin
+npm install
+npm run dev
+
+
+
+👨‍💻 Developer
+Muhammad Usman📧 official.muhammadusman01@gmail.com
+https://www.linkedin.com/in/muhammad-usman-563a80376/
+
+🤝 Contributing
+Contributions are welcome! Feel free to:
+
+Open an issue to report bugs or suggest features
+Submit a pull request to enhance the project
+
+
+
