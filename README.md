@@ -86,9 +86,12 @@ npm run dev
 
 
 
-👨‍💻 Developer
-Muhammad Usman📧 official.muhammadusman01@gmail.com
-https://www.linkedin.com/in/muhammad-usman-563a80376/
+## 👨‍💻 Developer
+
+**Muhammad Usman**  
+📧 [official.muhammadusman01@gmail.com](mailto:official.muhammadusman01@gmail.com)  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/muhammad-usman-563a80376/)
+
 
 🤝 Contributing
 Contributions are welcome! Feel free to:
